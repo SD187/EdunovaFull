@@ -449,7 +449,7 @@ footer {
   .page-offset{ padding-top: 120px; } /* header wraps on two lines */
 }
 
-/* Add this in your CSS */
+
 body {
   display: flex;
   flex-direction: column;
