@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduNova Admin Dashboard</title>
+    <link rel="stylesheet" href="css/mtime.css"> <!-- Corrected path -->
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="assets/logo.jpeg" alt="EduNova Logo"> <!-- Corrected path -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Manage Students</a></li>
+                    <li><a href="#">Manage Teachers</a></li>
+                    <li><a href="#">Manage Courses</a></li>
+                    <li><a href="#">Manage Time Table</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#" class="logout-btn">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Manage Time Table</h1>
+            <div class="form-container">
+                <label for="grade-select">Select Grade</label>
+                <select id="grade-select">
+                    <option value="grade-1">Grade 1</option>
+                    <option value="grade-2">Grade 2</option>
+                    <option value="grade-3">Grade 3</option>
+                </select>
+
+                <label for="subject-select">Select Subject</label>
+                <select id="subject-select">
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="history">History</option>
+                </select>
+
+                <label for="date">Set Date</label>
+                <input type="date" id="date">
+
+                <label for="time">Set Time (Start & End)</label>
+                <input type="time" id="start-time">
+                <input type="time" id="end-time">
+
+                <button class="add-time-table-btn">Add Time Table</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/mtime.js"></script> <!-- Corrected path -->
+</body>
+</html>

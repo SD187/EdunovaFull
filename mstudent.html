@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduNova Admin Dashboard</title>
+    <link rel="stylesheet" href="css/mstudent.css"> <!-- Corrected path -->
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="assets/logo.jpeg" alt="EduNova Logo"> <!-- Corrected path -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Manage Students</a></li>
+                    <li><a href="#">Manage Teachers</a></li>
+                    <li><a href="#">Manage Courses</a></li>
+                    <li><a href="#">Manage Time Table</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#" class="logout-btn">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Manage Students</h1>
+            <p class="instructions">* Paste the Google Form link below to update the registration form for students.</p>
+            <div class="form-container">
+                <label for="google-form-link">Upload Google Form Link</label>
+                <input type="text" id="google-form-link" placeholder="https://docs.google.com/forms/...">
+                
+                <button class="add-link-btn">Add Link</button>
+                <button class="update-link-btn">Update Link</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/mstudent.js"></script> <!-- Corrected path -->
+</body>
+</html>
