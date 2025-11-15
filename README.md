@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EduNova Academy - Integrated Web Application
 
 ## 🏗️ Project Structure
@@ -148,3 +149,7 @@ For questions or support, contact:
 ---
 
 **EduNova Academy** - Empowering Education Through Technology
+=======
+# EdunovaFull
+extension of the edunova project
+>>>>>>> 0ddb5d87dbc5246bdcaf3efc9a96ab39a1839847
